@@ -3,7 +3,7 @@
 Char Counter - это веб-сервис, предназначенный для подсчета количества 
 одинаковых символов в строке.
 ## Стек
-Java 17, Spring Boot, Spring Web, Lombok, Maven
+Java 17, Spring Boot, Spring Web, JUnit, Mockito, Lombok, Maven
 
 ## Запуск (windows)
 Для запуска приложения вы можете использовать следующие команды:
@@ -49,5 +49,5 @@ java -jar target/<название_jar-файла>.jar
 ```
 В случае отсутствия текста, или null, сервис вернет:
 ```
-text empty or null
+текст пуст либо null
 ```
